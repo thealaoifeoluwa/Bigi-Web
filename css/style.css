@@ -491,8 +491,8 @@ button {
   flex-direction: column;
   max-width: 1510px;
   margin: auto;
-  padding: 0 30px;
-  padding-top: 7%;
+  padding: 0 180px;
+  padding-top: 5%;
 }
 
 .hero-work h5 {
@@ -510,7 +510,7 @@ button {
   font-size: 110px;
   line-height: 110px;
   padding-top: 20px;
-  padding-bottom:20px;
+  padding-bottom:30px;
 }
 
 /* ==================Services================= */
