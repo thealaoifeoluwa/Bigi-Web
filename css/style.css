@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Rubik, Helvetica;
+  font-family: 'Rubik', Helvetica;
   background: rgb(0, 0, 0);
   color: #fff;
   font-size: 16px;
@@ -15,11 +15,11 @@ body {
 a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-family: Rubik, Helvetica;
+  font-family: 'Rubik', Helvetica;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Rubik, Helvetica; 
+  font-family: 'Rubik', Helvetica; 
 }
 
 ul {
@@ -287,6 +287,7 @@ button {
   width: auto;
   margin-top: 9%;
   gap: 30px;
+  font-family: 'Rubik', Helvetica;
 }
 
 .hero-text h1 {
@@ -308,6 +309,7 @@ button {
   font-size: 24px;
   line-height: 28px;
   text-align: center;
+  font-family: 'Rubik', Helvetica;
 
 }
 
@@ -382,6 +384,7 @@ button {
   max-width: 1510px;
   margin: auto;
   padding-bottom: 10px;
+  font-family: 'Rubik', Helvetica;
 }
 
 .works .card {
@@ -428,7 +431,7 @@ button {
 
 .works .card .case h2 {
   position: relative;
-  font-family: Rubik, Helvetica;
+  font-family: 'Rubik', Helvetica;
   color: #fff;
   font-size: 36px;
   font-weight: 500;
@@ -438,7 +441,7 @@ button {
 }
 
 .works .card .case p {
-  font-family: Rubik, Helvetica;
+  font-family: 'Rubik', Helvetica;
   color: #fff;
   font-size: 16px;
   font-weight: 300;
@@ -471,7 +474,7 @@ button {
   top: 0px;
   font-size: 24px;
   font-weight: 500;
-  font-family: Rubik, Helvetica;
+  font-family: 'Rubik', Helvetica;
 }
 
 .works .card-all :hover {
@@ -498,10 +501,11 @@ button {
   margin: auto;
   padding: 0 180px;
   padding-top: 5%;
+  font-family: 'Rubik', Helvetica;
 }
 
 .hero-work h5 {
-  font-family: 'Rubik';
+  font-family: 'Rubik', Helvetica;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -509,7 +513,7 @@ button {
 }
 
 .hero-work h1 {
-  font-family: 'Rubik';
+  font-family: 'Rubik', Helvetica;
   font-style: normal;
   font-weight: 600;
   font-size: 93px;
@@ -519,7 +523,7 @@ button {
 }
 
 .hero-work p {
-  font-family: 'Rubik';
+  font-family: 'Rubik', Helvetica;
   font-style: normal;
   font-weight: 300;
   font-size: 22px;
@@ -536,17 +540,19 @@ button {
   width: 1510px;
   margin: auto;
   padding: 0 30px;
+  font-family: 'Rubik', Helvetica;
 }
 
 .super-text {
   padding: 150px 0;
+  font-family: 'Rubik', Helvetica;
 }
 
 .super-text .text-head {
   font-family: 'Rubik', Helvetica;
   font-size: 16px;
   font-weight: 300;
-  line-height: height 19px;
+  line-height: 19px;
   color: #ffff;
   margin-bottom: 22px;
   letter-spacing: 3.5px;
@@ -629,6 +635,7 @@ button {
   width: 1160px;
   padding-top: 15%;
   gap: 240px;
+  font-family: 'Rubik', Helvetica;
 }
 
 .silo {
@@ -646,6 +653,7 @@ button {
 }
 
 .silo h1 {
+  font-family: 'Rubik', Helvetica;
   font-style: normal;
   font-weight: 600;
   font-size: 52px;
@@ -654,6 +662,7 @@ button {
 }
 
 .silo p {
+  font-family: 'Rubik', Helvetica;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -683,6 +692,7 @@ button {
 }
 
 .collapse h5 {
+  font-family: 'Rubik', Helvetica;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -704,6 +714,7 @@ button {
   padding-top: 7%;
   gap: 220px;
   padding-bottom: 8%;
+  font-family: 'Rubik', Helvetica;
 }
 
 .status h1 {
@@ -742,6 +753,7 @@ footer {
   margin: auto;
   padding: 0 30px;
   padding-bottom: 100px;
+  font-family: 'Rubik', Helvetica;
 }
 
 /*......... Footer side 1........ */
