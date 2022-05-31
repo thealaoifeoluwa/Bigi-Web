@@ -689,6 +689,35 @@ button {
   transition-duration: 500ms;
 }
 
+/*===============Company page========== */
+
+.status {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 1160px;
+  padding-top: 7%;
+  gap: 220px;
+  padding-bottom: 8%;
+}
+
+.status h1 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 83px;
+  color: #ff8500;
+}
+
+.status h5 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+}
+
 /* --------------- Footer------------------*/
 
 .divider img {
