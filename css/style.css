@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Rubik", Helvetica;
+  font-family: Rubik, Helvetica;
   background: rgb(0, 0, 0);
   color: #fff;
   font-size: 16px;
@@ -15,6 +15,11 @@ body {
 a {
   color: rgb(255, 255, 255);
   text-decoration: none;
+  font-family: Rubik, Helvetica;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Rubik, Helvetica; 
 }
 
 ul {
