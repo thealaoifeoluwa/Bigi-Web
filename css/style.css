@@ -507,11 +507,21 @@ button {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 600;
-  font-size: 110px;
+  font-size: 93px;
   line-height: 110px;
   padding-top: 20px;
   padding-bottom:30px;
 }
+
+.hero-work p {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  padding-top: 2%;
+}
+
 
 /* ==================Services================= */
 
@@ -595,6 +605,89 @@ button {
   color: #ffff;
 }
 
+/* ---------------Service page------------------*/
+
+.service-icon {
+  display: flex;
+  flex-direction: column;
+  width: 1210px;
+  margin: auto;
+  margin-top: 7%;
+  padding: 0 30px;
+}
+
+
+.catalogue {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 1160px;
+  padding-top: 15%;
+  gap: 240px;
+}
+
+.silo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.silo .icon img {
+  width: 363.03px;
+  height: 362.56px;
+  left: 302px;
+  top: 1112px;
+}
+
+.silo h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 21px;
+  color: #ff8500;
+}
+
+.silo p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 42px;
+}
+
+.silo ul {
+  font-family: 'Rubik', Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07px;
+  color: #ffff;
+  padding-top: 28px;
+}
+
+.silo .collapse {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.collapse img {
+  padding-left: 24px;
+}
+
+.collapse h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.collapse img:hover {
+  transform: scale(1.3);
+  transition-duration: 500ms;
+}
 
 /* --------------- Footer------------------*/
 
