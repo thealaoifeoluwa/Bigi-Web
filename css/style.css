@@ -954,8 +954,14 @@ input:focus {
 
 .for-input img {
   position: absolute;
-  margin-top: 45px;
+  margin-top: 46px;
   margin-left: -20px;
+}
+
+.for-input img:hover {
+  transform: scale(1.3);
+  transition-duration: 500ms;
+
 }
 
 
