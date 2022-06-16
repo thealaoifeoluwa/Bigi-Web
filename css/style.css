@@ -18,6 +18,7 @@ a {
   font-family: 'Rubik', Helvetica;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Rubik', Helvetica; 
 }
@@ -572,6 +573,112 @@ button {
   font-size: 20px;
   line-height: 25px;
 }
+
+.bigibranders h5 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 76px;
+}
+
+.bigibranders h1 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 76px;
+  color: #ff8500;
+}
+
+.team-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 1160px;
+  padding-top: 7%;
+  gap: 110px;
+  padding-bottom: 8%;
+  font-family: 'Rubik', Helvetica;
+  row-gap: 260px;
+}
+
+.team-card .image {
+  position: absolute;
+  width: 125%;
+  height: 125%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  transition: .3s;
+  transform: scale(1);
+  border-radius: 30px;
+  background-color: #D7D7D7;
+}
+.team-card .image:hover{
+  transform: scale(1.03);
+  background-color: #ff8500;
+}
+
+.card-stack {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 288px;
+  height: 368px;
+  gap: 60px;
+}
+.card-stack h3{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.card-stack h5{
+  font-family: 'Rubik';
+  font-style: light;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.card-text{
+  padding-top: 12%;
+}
+
+.card-icon {
+  display: flex;
+  flex-direction: column;
+  width: 125%;
+  height: 125%;
+  position: relative;
+  padding: 15px;
+  transform: scale(1);
+  opacity: 1;
+  gap: 4px;
+}
+
+
+.card-icon :hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.a-icon {
+  align-items: flex-start;
+  top: -15%;
+}
+
+.b-icon{
+  align-items: flex-end;
+}
+
 
 /* --------------- Footer------------------*/
 
