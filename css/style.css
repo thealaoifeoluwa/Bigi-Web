@@ -217,8 +217,9 @@ ul {
   flex-wrap: wrap;
   justify-content: flex-start;
   padding-top: 300px;
-  max-width: 1510px;
+  max-width: 1600px;
   margin: auto;
+  width: auto;
   padding-bottom: 10px;
   font-family: 'Rubik', Helvetica, sans-serif;
 }
@@ -226,14 +227,15 @@ ul {
 .works .card {
   position: relative;
   flex-basis: 50%;
-  padding: 0 30px;
+  padding-left: 30px;
+  padding-right: 30px;
   height: 50vw;
-  max-height: 900px;
-  margin-bottom: 130px
+  max-height: 950px;
+  margin-bottom: 100px
 }
 
 .works .card:nth-child(2n) {
-  margin-top: -130px
+  margin-top: -130px;
 }
 
 .works .card .case {
@@ -329,52 +331,15 @@ ul {
   transform: translateX(10px);
 }
 
-/* =====Work page============ */
-.hero-work {
-  display: flex;
-  flex-direction: column;
-  max-width: 1510px;
-  margin: auto;
-  padding: 0 180px;
-  padding-top: 5%;
-  font-family: 'Rubik', Helvetica, sans-serif;
-}
 
-.hero-work h5 {
-  font-family: 'Rubik', Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-}
-
-.hero-work h1 {
-  font-family: 'Rubik', Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 93px;
-  line-height: 110px;
-  padding-top: 20px;
-  padding-bottom:30px;
-}
-
-.hero-work p {
-  font-family: 'Rubik', Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 22px;
-  line-height: 30px;
-  padding-top: 2%;
-}
-
-
-/* ==================Services================= */
+/* ==================Services homepage================= */
 
 .services {
   display: flex;
   flex-direction: column;
-  width: 1510px;
+  max-width: 1600px;
   margin: auto;
+  width: auto;
   padding: 0 30px;
   font-family: 'Rubik', Helvetica, sans-serif;
 }
@@ -406,7 +371,6 @@ ul {
 
 .super-text h4 {
   font-family: 'Rubik', Helvetica, sans-serif;
-  max-width: 710px;
   font-style: normal;
   font-weight: 300;
   font-size: 22px;
@@ -416,8 +380,12 @@ ul {
 
 .service-type-case {
   display: flex;
-  max-width: 1510px;
   justify-content: space-between;
+}
+
+.service-type {
+  display: flex;
+  flex-direction: column;
 }
 
 .service-type h5 {
@@ -452,27 +420,75 @@ ul {
   color: #ffff;
 }
 
+/* =====------Work page============ */
+
+.hero-work {
+  display: flex;
+  flex-direction: column;
+  max-width: 1510px;
+  margin: auto;
+  width: auto;
+  padding: 0 180px;
+  padding-top: 5%;
+  font-family: 'Rubik', Helvetica, sans-serif;
+}
+
+.hero-work h5 {
+  font-family: 'Rubik', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.hero-work h1 {
+  font-family: 'Rubik', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 93px;
+  line-height: 110px;
+  padding-top: 20px;
+  padding-bottom:30px;
+  
+}
+
+.hero-work p {
+  font-family: 'Rubik', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  padding-top: 2%;
+}
+
+
 /* ---------------Service page------------------*/
 
 .service-icon {
   display: flex;
   flex-direction: column;
-  width: 1210px;
+  max-width: 1510px;
   margin: auto;
-  margin-top: 7%;
-  padding: 0 30px;
+  width: auto;
+  padding: 0 180px;
+  justify-content: center;
 }
 
 .service-type-icon {
+  
   display: flex;
-  gap: 160px;
+  justify-content: space-between;
+  padding-top: 12%;
+
 }
 
 .catalogue {
   display: flex;
   flex-direction: column;
+  max-width: 1510px;
   margin: auto;
-  width: 1160px;
+  width: auto;
+  padding: 0 180px;
   padding-top: 15%;
   gap: 240px;
   font-family: 'Rubik', Helvetica, sans-serif;
@@ -594,8 +610,10 @@ font-family: 'Rubik', Helvetica, sans-serif;
 .team-card {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1510px;
   margin: auto;
-  width: 1160px;
+  width: auto;
+  padding: 0 180px;
   padding-top: 7%;
   gap: 110px;
   padding-bottom: 8%;
@@ -682,21 +700,22 @@ font-family: 'Rubik', Helvetica, sans-serif;
 
 /* --------------- Footer------------------*/
 
-.divider img {
+.divider {
   padding-top: 200px;
   padding-bottom: 140px;
   display: flex;
-  width: 1510px;
-  margin: auto;
-
-
+  justify-content: center;
 }
+
+
+
 
 footer {
   display: flex;
-  gap: 250px;
-  width: 1510px;
+  justify-content: space-between;
+  max-width: 1600px;
   margin: auto;
+  width: auto;
   padding: 0 30px;
   padding-bottom: 100px;
   font-family: 'Rubik', Helvetica, sans-serif;
@@ -709,6 +728,7 @@ footer {
   height: 800px;
   flex-direction: column;
   justify-content: space-between;
+  width: auto;
 }
 
 .contact h4 {
@@ -737,7 +757,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 50%;
+  width: 210px;
   gap: 35px;
 }
 
@@ -750,22 +770,30 @@ footer {
   transform: translateY(5px);
 }
 
+.join-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  align-self: start;
+}
 
 
 .join-button {
+  display: flex;
+  justify-content: center;
   cursor: pointer;
-  display: inline-block;
   border: 0.5px solid;
   border-color: #ff8500;
   font-weight: 400;
-  padding: 8px 20px;
+  padding: 10px;
   background: rgb(0, 0, 0);
   color: #ffffff;
   font-size: 16px;
   border-radius: 24px;
-  position: relative;
-  top: 70px;
-  right: 155px;
+  width: 120px;
+  top: 0px;
+  right: 0px;
 }
 
 .join-button:hover {
@@ -776,11 +804,11 @@ footer {
 }
 
 .note {
-  padding-top: 90px;
   font-style: normal;
   font-weight: 200;
   font-size: 12px;
   line-height: 18px;
+  width: 270px;
 }
 
 .note h4 {
@@ -958,17 +986,20 @@ input:focus {
 
 
 .submit-button {
+  display: flex;
+  justify-content: center;
   cursor: pointer;
-  display: inline-block;
   border: 0.5px solid;
   border-color: #ff8500;
   font-weight: 400;
-  padding: 18px 80px;
+  padding: 20px;
   background: rgb(0, 0, 0);
   color: #ffffff;
   font-size: 16px;
-  border-radius: 30px;
-  width: 25%;
+  border-radius: 50px;
+  width: 180px;
+  top: 0px;
+  right: 0px;
 }
 
 .submit-button:hover {
@@ -990,199 +1021,12 @@ input:focus {
 
 /* ==============Media Query======= */
 
-@media screen and (max-width: 768px) {
-  .container {
-    width: 96%;
-  }
+@media screen and (max-width: 428px) {
 
-  .header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    padding-top: 10px;
-  }
-
-  .logo{
-    z-index: 102;
-  }
-
-  .header-left {
-    display: flex;
-    align-items: center;
-  }
-
-  .header-menu {
-    padding-right: 60px;
-  }
-
-  .header-menu :hover {
-    color: #ff8500;
-    transition-duration: 0.3s;
-  }
-
-  .header-menu .hide{
-    display: none;
-  }
-
-  .menu-link {
-    padding-left: 40px;
-  }
-
-  .showreel {
-    padding-right: 20px;
-    position: relative;
-    top: 3px;
-  }
-
-  .showreel :hover {
-    transform: scale(1.2);
-    transition-duration: 0.3s;
-  }
-
-  .hire-button {
-    cursor: pointer;
-    display: inline-block;
-    border: 0.5px solid;
-    border-color: #ff8500;
-    font-weight: 400;
-    padding: 8px 20px;
-    background: rgb(0, 0, 0);
-    color: #ffffff;
-    font-size: 16px;
-    border-radius: 24px;
-  }
-
-  .hire-button:hover {
-    opacity: 1;
-    background-color: #ff8500;
-    transition-duration: 0.3s;
-    color: #ffffff;
-  }
-
-  /*================Hamburger================== */
-
-  .hamburger {
-    display: none;
-    cursor: pointer;
-    position: relative;
-    z-index: 102;
-  }
-
-  .bar{
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    transition: all 0.3s ease-in-out;
-    background-color: #ff8500;
-
-  }
-
-
-  /*============Hero Section============ */
-  .hero-text {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 9%;
-    font-family: 'Rubik', Helvetica, sans-serif;
-  }
-
-  .hero-text h1 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 110px;
-    line-height: 110px;
-    text-align: center;
-  }
-
-  .connect {
-    display: flex;
-    justify-content: center;
-  }
-
-  .connect a {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    font-family: 'Rubik', Helvetica, sans-serif;
-
-  }
-
-  .connect :hover {
-    color: #ff8500;
-    transition-duration: 0.3s;
-  }
-
-  .connect .arrow {
-    transition: .3s;
-    position: relative;
-    left: 6px;
-    top: 2px;
-    transform: scale(1.3);
-  }
-
-  .connect :hover .arrow {
-    transform: translateX(5px)
-  }
-
-  .hero-text {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 85%;
-    margin-top: 40%;
-    gap: 30px;
-    font-family: 'Rubik', Helvetica, sans-serif;
-  }
-  
-  .hero-text h1 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 57px;
-    text-align: center;
-  }
-  
-  .connect {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .connect a {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 28px;
-    text-align: center;
-    font-family: 'Rubik', Helvetica, sans-serif;
-  
-  }
-  
-  .connect :hover {
-    color: #ff8500;
-    transition-duration: 0.3s;
-  }
-  
-  .connect .arrow {
-    transition: .3s;
-    position: relative;
-    left: 6px;
-    top: 2px;
-    transform: scale(1.3);
-  }
-  
-  .connect :hover .arrow {
-    transform: translateX(5px)
-  }
-  
 }
 
+@media screen and (max-width:1080px) {
 
-
-@media(max-width:1080px) {
   /* Hamburger Start */
 
   .hamburger{
@@ -1306,12 +1150,12 @@ input:focus {
   
   }
   
-   /* Work homepage Start */
+  /* Work homepage Start */
   
   .works {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding-top: 300px;
     max-width: 980px;
     margin: auto;
@@ -1321,231 +1165,26 @@ input:focus {
   .works .card {
     position: relative;
     flex-basis: 50%;
-    padding: 0 30px;
-    height: 50vw;
+    padding: 40px;
+    height: 70vw;
     max-height: 900px;
-    margin-bottom: 60px
+    margin-bottom: 20px;
   }
 
-  
-  .services {
-    display: flex;
-    flex-direction: column;
-    width: 980px;
-    margin: auto;
-    padding: 0 30px;
-    font-family: 'Rubik', Helvetica, sans-serif;
-  }
-
-  .super-text {
-    padding: 150px 0;
-    font-family: 'Rubik', Helvetica, sans-serif;
-  }
-
-  .super-text .text-head {
-    font-family: 'Rubik', Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 19px;
-    color: #ffff;
-    margin-bottom: 22px;
-    letter-spacing: 3.5px;
-    text-transform: uppercase;
-  }
-
-  .super-text h2 {
-    font-family: 'Rubik', Helvetica, sans-serif;
-    font-size: 48px;
-    font-weight: 500;
-    color: #ffff;
-    margin-bottom: 30px;
-    line-height: 47px;
-  }
-
-  .super-text h4 {
-    font-family: 'Rubik', Helvetica, sans-serif;
-    max-width: 710px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 30px;
-    color: #ffffff;
-  }
-
-  .service-type-case {
-    display: flex;
-    gap: 70px;
-
-  }
-
-  .service-type h5 {
-    font-family: 'Rubik', Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 24px;
-    letter-spacing: 0.0846154px;
-    color: #ff8500;
-    margin-bottom: 15px;
-  }
-
-  .service-type img {
-    transition: 0.3s;
-    margin-bottom: 35px;
-    height: 60px;
-    cursor: pointer;
-  }
-
-  .service-type img:hover {
-    transform: translateY(5px);
-  }
-
-  .service-type ul li {
-    font-family: 'Rubik', Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.07px;
-    color: #ffff;
-  }
-  
-}
-
-
-/* 
-@media screen and (max-width: 1650px) {
-  
-  .works {
-    max-width: 1350px;
-  }
+  /* services */
 
   .services {
-    width: 1350px;
+    max-width: 1600px;
+    padding: 0 60px;
   }
   
-  .service-type-case {
-    gap: 160px;
-  }
+  /* Work homepage Start */
 
-  .divider img {
-    width: 1350px;
-  }
   
   footer {
-    width: 1350px;
-  }
-
-  .follow .social-media {
-    width: 63%;
-    gap: 30px;
-  }
-
-  .submit-button {
-    width: 28%;
-  }
-
-  .service-icon {
-    width: 1200px;
-  }
-  
-  .catalogue {
-    width: 1050px;
+    padding: 0 60px;
   }
 }
 
-@media screen and (max-width: 1500px) {
-  
-  .works {
-    max-width: 1250px;
-  }
 
-  .services {
-    width: 1250px;
-  }
-  
-  .service-type-case {
-    gap: 140px;
-  }
 
-  .divider img {
-    width: 1250px;
-  }
-  
-  footer {
-    width: 1250px;
-  }
-
-  .follow .social-media {
-    width: 63%;
-    gap: 30px;
-  }
-
-  .submit-button {
-    width:30%;
-  }
-
-  .contact h2 {
-    font-size: 40px;
-  }
-
-  .note {
-    width: 53%;
-  }
-
-  .service-icon {
-    width: 1120px;
-  }
-  
-  .catalogue {
-    width: 970px;
-  }
-  
-}
-
-@media screen and (max-width: 1400px) {
-  
-  .works {
-    max-width: 1250px;
-  }
-
-  .services {
-    width: 1250px;
-  }
-  
-  .service-type-case {
-    gap: 160px;
-  }
-
-  .divider img {
-    width: 1250px;
-  }
-  
-  footer {
-    width: 1250px;
-  }
-
-  .follow .social-media {
-    width: 63%;
-    gap: 30px;
-  }
-
-  .submit-button {
-    width:30%;
-  }
-
-  .contact h2 {
-    font-size: 40px;
-  }
-
-  .service-icon {
-    width: 1020px;
-  }
-
-}
-
-@media screen and (min-width: 1024px) {}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {}
-
-@media screen and (max-width: 767px) {} */
