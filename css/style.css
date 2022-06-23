@@ -119,8 +119,8 @@ ul {
 .hero-text {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  width: auto;
+  margin: auto;
+  max-width: 1000px;
   margin-top: 9%;
   gap: 30px;
   font-family: 'Rubik', Helvetica, sans-serif;
@@ -416,8 +416,8 @@ ul {
 
 .service-type-case {
   display: flex;
-  gap: 195px;
-
+  max-width: 1510px;
+  justify-content: space-between;
 }
 
 .service-type h5 {
@@ -617,7 +617,7 @@ font-family: 'Rubik', Helvetica, sans-serif;
   transition: .3s;
   transform: scale(1);
   border-radius: 30px;
-  background-color: #D7D7D7;
+  background-color: #aaaaaa;
 }
 .team-card .image:hover{
   transform: scale(1.03);
@@ -990,8 +990,200 @@ input:focus {
 
 /* ==============Media Query======= */
 
+@media screen and (max-width: 768px) {
+  .container {
+    width: 96%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 10px;
+  }
+
+  .logo{
+    z-index: 102;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-menu {
+    padding-right: 60px;
+  }
+
+  .header-menu :hover {
+    color: #ff8500;
+    transition-duration: 0.3s;
+  }
+
+  .header-menu .hide{
+    display: none;
+  }
+
+  .menu-link {
+    padding-left: 40px;
+  }
+
+  .showreel {
+    padding-right: 20px;
+    position: relative;
+    top: 3px;
+  }
+
+  .showreel :hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+  }
+
+  .hire-button {
+    cursor: pointer;
+    display: inline-block;
+    border: 0.5px solid;
+    border-color: #ff8500;
+    font-weight: 400;
+    padding: 8px 20px;
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 24px;
+  }
+
+  .hire-button:hover {
+    opacity: 1;
+    background-color: #ff8500;
+    transition-duration: 0.3s;
+    color: #ffffff;
+  }
+
+  /*================Hamburger================== */
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 102;
+  }
+
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #ff8500;
+
+  }
+
+
+  /*============Hero Section============ */
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 9%;
+    font-family: 'Rubik', Helvetica, sans-serif;
+  }
+
+  .hero-text h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 110px;
+    text-align: center;
+  }
+
+  .connect {
+    display: flex;
+    justify-content: center;
+  }
+
+  .connect a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Rubik', Helvetica, sans-serif;
+
+  }
+
+  .connect :hover {
+    color: #ff8500;
+    transition-duration: 0.3s;
+  }
+
+  .connect .arrow {
+    transition: .3s;
+    position: relative;
+    left: 6px;
+    top: 2px;
+    transform: scale(1.3);
+  }
+
+  .connect :hover .arrow {
+    transform: translateX(5px)
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 85%;
+    margin-top: 40%;
+    gap: 30px;
+    font-family: 'Rubik', Helvetica, sans-serif;
+  }
+  
+  .hero-text h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+  }
+  
+  .connect {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .connect a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Rubik', Helvetica, sans-serif;
+  
+  }
+  
+  .connect :hover {
+    color: #ff8500;
+    transition-duration: 0.3s;
+  }
+  
+  .connect .arrow {
+    transition: .3s;
+    position: relative;
+    left: 6px;
+    top: 2px;
+    transform: scale(1.3);
+  }
+  
+  .connect :hover .arrow {
+    transform: translateX(5px)
+  }
+  
+}
+
+
 
 @media(max-width:1080px) {
+  /* Hamburger Start */
 
   .hamburger{
     display: block;
@@ -1082,8 +1274,146 @@ input:focus {
     height: 100vh;
     background-color: #000000;
   }
+
+
+  /* Hero section Start */
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 800px;
+    margin-top: 15%;
+    gap: 30px;
+    font-family: 'Rubik', Helvetica, sans-serif;
+  }
+  
+  .hero-text h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 95px;
+    line-height: 110px;
+    text-align: center;
+  }
+  
+  .connect a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Rubik', Helvetica, sans-serif;
+  
+  }
+  
+   /* Work homepage Start */
+  
+  .works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 300px;
+    max-width: 980px;
+    margin: auto;
+    font-family: 'Rubik', Helvetica, sans-serif;
+  }
+  
+  .works .card {
+    position: relative;
+    flex-basis: 50%;
+    padding: 0 30px;
+    height: 50vw;
+    max-height: 900px;
+    margin-bottom: 60px
+  }
+
+  
+  .services {
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    margin: auto;
+    padding: 0 30px;
+    font-family: 'Rubik', Helvetica, sans-serif;
+  }
+
+  .super-text {
+    padding: 150px 0;
+    font-family: 'Rubik', Helvetica, sans-serif;
+  }
+
+  .super-text .text-head {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    color: #ffff;
+    margin-bottom: 22px;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+  }
+
+  .super-text h2 {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    color: #ffff;
+    margin-bottom: 30px;
+    line-height: 47px;
+  }
+
+  .super-text h4 {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    max-width: 710px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+
+  .service-type-case {
+    display: flex;
+    gap: 70px;
+
+  }
+
+  .service-type h5 {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.0846154px;
+    color: #ff8500;
+    margin-bottom: 15px;
+  }
+
+  .service-type img {
+    transition: 0.3s;
+    margin-bottom: 35px;
+    height: 60px;
+    cursor: pointer;
+  }
+
+  .service-type img:hover {
+    transform: translateY(5px);
+  }
+
+  .service-type ul li {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.07px;
+    color: #ffff;
+  }
+  
 }
 
+
+/* 
 @media screen and (max-width: 1650px) {
   
   .works {
@@ -1218,4 +1548,4 @@ input:focus {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {}
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {} */
