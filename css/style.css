@@ -33,6 +33,7 @@ ul {
   width: 96%;
   max-width: 1920px;
   margin: auto;
+  justify-content: center;
 }
 
 .header {
