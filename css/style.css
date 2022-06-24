@@ -182,11 +182,13 @@ ul {
 .a-stack {
   bottom: 8%;
   left: 2%;
+  width: auto;
 }
 
 .b-stack {
   right: 2%;
   top: 14%;
+  width: auto;
 }
 
 .stack-2 {
