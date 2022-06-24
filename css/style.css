@@ -1746,7 +1746,16 @@ input:focus {
 }
 
 @media screen and (max-width: 428px) {
+
+  .logo {
+    transform: scale(0.9);
+  }
   
+  .hamburger {
+    transform: scale(0.9);
+  }
+  }
+
   /* hero section */
 
   .hero-text {
