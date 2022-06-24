@@ -431,7 +431,7 @@ ul {
   margin: auto;
   width: auto;
   padding: 0 180px;
-  padding-top: 5%;
+  padding-top: 12%;
   font-family: 'Rubik', Helvetica, sans-serif;
 }
 
@@ -461,6 +461,7 @@ ul {
   font-size: 22px;
   line-height: 30px;
   padding-top: 2%;
+  max-width: 1250px;
 }
 
 
@@ -487,10 +488,11 @@ ul {
 .catalogue {
   display: flex;
   flex-direction: column;
-  max-width: 1510px;
+  max-width: 1500px;
   margin: auto;
   width: auto;
   padding: 0 180px;
+  justify-content: space-between;
   padding-top: 15%;
   gap: 240px;
   font-family: 'Rubik', Helvetica, sans-serif;
@@ -501,6 +503,9 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  max-width: 1150px;
+  gap: 60px;
+  
 }
 
 .silo .icon img {
@@ -515,7 +520,7 @@ ul {
   font-style: normal;
   font-weight: 600;
   font-size: 52px;
-  line-height: 21px;
+  line-height: 45px;
   color: #ff8500;
 }
 
@@ -526,6 +531,7 @@ ul {
   font-size: 20px;
   line-height: 25px;
   padding-top: 42px;
+  max-width: 430px;
 }
 
 .silo ul {
@@ -1223,6 +1229,222 @@ input:focus {
     padding-top: 2%;
   }
 
+  /* Service page */
+
+    
+  .service-icon {
+    display: flex;
+    flex-direction: column;
+    max-width: 1510px;
+    margin: auto;
+    width: auto;
+    padding: 0 40px;
+    justify-content: center;
+  }
+
+  .service-type-icon {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12%;
+  }
+
+  .catalogue {
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    margin: auto;
+    width: auto;
+    padding: 0 40px;
+    justify-content: space-between;
+    padding-top: 15%;
+    gap: 240px;
+    font-family: 'Rubik', Helvetica, sans-serif;
+  }
+
+  .silo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    gap: 60px;
+    
+  }
+
+  .silo .icon img {
+    width: 363.03px;
+    height: 362.56px;
+    left: 302px;
+    top: 1112px;
+    transform: scale(0.9);
+  }
+
+  .silo h1 {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 25px;
+    color: #ff8500;
+  }
+
+  .silo p {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 25px;
+    max-width: 430px;
+  }
+
+  .silo ul {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.07px;
+    color: #ffff;
+    padding-top: 23px;
+  }
+
+  .silo .collapse {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .collapse img {
+    padding-left: 24px;
+  }
+
+  .collapse h5 {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .collapse img:hover {
+    transform: scale(1.3);
+    transition-duration: 500ms;
+  }
+
+  /* us */
+  .bigibranders h5 {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .bigibranders h1 {
+  font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    color: #ff8500;
+    line-height: 110px;
+  }
+  
+  .team-card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1510px;
+    margin: auto;
+    width: auto;
+    padding: 0 50px;
+    padding-top: 7%;
+    gap: 110px;
+    padding-bottom: 8%;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    row-gap: 260px;
+  }
+  
+  .team-card .image {
+    position: absolute;
+    width: 125%;
+    height: 125%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    transition: .3s;
+    transform: scale(1);
+    border-radius: 30px;
+    background-color: #aaaaaa;
+  }
+  
+  .team-card .image:hover{
+    transform: scale(1.03);
+    background-color: #ff8500;
+  }
+  
+  .card-stack {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 288px;
+    height: 368px;
+    gap: 60px;
+  }
+  
+  .card-stack h3{
+  font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  
+  .card-stack h5{
+    font-style: light;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .card-text{
+    padding-top: 12%;
+  }
+  
+  .card-icon {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 15px;
+    transform: scale(1);
+    opacity: 1;
+    gap: 4px;
+    width: fit-content;
+  }
+  
+  
+  .card-icon :hover {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  .a-icon {
+    bottom: 15%;
+  
+  
+  }
+  
+  .b-icon{
+    left: 105%;
+  
+  }
+    
+
 }
 
 @media screen and (max-width: 835px) {
@@ -1481,7 +1703,125 @@ input:focus {
   }
 
 
+  
+  /* Service page */
 
+    
+  .service-icon {
+    display: flex;
+    flex-direction: column;
+    max-width: 1510px;
+    margin: auto;
+    width: auto;
+    padding: 0 40px;
+    justify-content: center;
+    padding-top: 12%;
+  }
+
+  .service-type-icon {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 12%;
+    justify-content: flex-start;
+    gap: 35px;
+  }
+
+
+  .service-type h5 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  
+
+  .catalogue {
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    margin: auto;
+    width: auto;
+    padding: 0 40px;
+    justify-content: space-between;
+    padding-top: 15%;
+    gap: 170px;
+    font-family: 'Rubik', Helvetica, sans-serif;
+  }
+
+
+
+  .silo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    gap: 60px;
+  }
+
+
+  .silo .icon img {
+    width: 363.03px;
+    height: 362.56px;
+    left: 302px;
+    top: 1112px;
+    transform: scale(0.9);
+  }
+
+  .silo h1 {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 25px;
+    color: #ff8500;
+  }
+
+  .silo p {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 25px;
+    max-width: 430px;
+  }
+
+  .silo ul {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.07px;
+    color: #ffff;
+    padding-top: 23px;
+  }
+
+  .silo .collapse {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .collapse img {
+    padding-left: 24px;
+  }
+
+  .collapse h5 {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .collapse img:hover {
+    transform: scale(1.3);
+    transition-duration: 500ms;
+  }
+
+
+  /* Footer */
 
   footer {
     display: flex;
@@ -1797,7 +2137,7 @@ input:focus {
     margin: auto;
     width: auto;
     padding: 0 50px;
-    padding-top: 6%;
+    padding-top: 20%;
     font-family: 'Rubik', Helvetica, sans-serif;
   }
   
@@ -1824,7 +2164,7 @@ input:focus {
     font-family: 'Rubik', Helvetica, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 30px;
     padding-top: 2%;
   }
@@ -1885,6 +2225,7 @@ input:focus {
     transform: translateX(5px);
   }
   
+  /* floating */
 
   .floating {
     display: flex;
@@ -1910,88 +2251,7 @@ input:focus {
     transition-duration: 0.3s;
   }
 
-    /* other pages header */
-  
-  .hero-work {
-    display: flex;
-    flex-direction: column;
-    max-width: 1510px;
-    margin: auto;
-    width: auto;
-    padding: 0 50px;
-    padding-top: 6%;
-    font-family: 'Rubik', Helvetica, sans-serif;
-  }
-  
-  .hero-work h5 {
-    font-family: 'Rubik', Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-  }
-  
-  .hero-work h1 {
-    font-family: 'Rubik', Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 340%;
-    line-height: 70px;
-    padding-top: 20px;
-    padding-bottom:30px;
     
-  }
-  
-  .hero-work p {
-    font-family: 'Rubik', Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 30px;
-    padding-top: 2%;
-  }
-
-    /* other pages header */
-  
-  .hero-work {
-    display: flex;
-    flex-direction: column;
-    max-width: 1510px;
-    margin: auto;
-    width: auto;
-    padding: 0 50px;
-    padding-top: 6%;
-    font-family: 'Rubik', Helvetica, sans-serif;
-  }
-  
-  .hero-work h5 {
-    font-family: 'Rubik', Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-  }
-  
-  .hero-work h1 {
-    font-family: 'Rubik', Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 340%;
-    line-height: 70px;
-    padding-top: 20px;
-    padding-bottom:30px;
-    
-  }
-  
-  .hero-work p {
-    font-family: 'Rubik', Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 30px;
-    padding-top: 2%;
-  }
-
 
   /* other pages header */
 
@@ -2033,4 +2293,120 @@ input:focus {
     line-height: 30px;
     padding-top: 2%;
   }
+
+
+
+  /* Service page */
+    
+  .service-icon {
+    display: flex;
+    flex-direction: column;
+    max-width: 1510px;
+    margin: auto;
+    width: auto;
+    padding: 0 40px;
+    justify-content: center;
+    padding-top: 12%;
+  }
+
+  .service-type-icon {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 12%;
+    justify-content: flex-start;
+    gap: 35px;
+  }
+
+  .service-type h5 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  
+  .catalogue {
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    margin: auto;
+    width: auto;
+    padding: 0 40px;
+    justify-content: space-between;
+    padding-top: 15%;
+    gap: 170px;
+    font-family: 'Rubik', Helvetica, sans-serif;
+  }
+
+
+
+  .silo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    gap: 60px;
+  }
+
+
+  .silo .icon img {
+    width: 363.03px;
+    height: 362.56px;
+    left: 302px;
+    top: 1112px;
+
+  }
+
+  .silo h1 {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 25px;
+    color: #ff8500;
+  }
+
+  .silo p {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 25px;
+    max-width: 430px;
+  }
+
+  .silo ul {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.07px;
+    color: #ffff;
+    padding-top: 23px;
+  }
+
+  .silo .collapse {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .collapse img {
+    padding-left: 24px;
+  }
+
+  .collapse h5 {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .collapse img:hover {
+    transform: scale(1.3);
+    transition-duration: 500ms;
+  }
+
 }
