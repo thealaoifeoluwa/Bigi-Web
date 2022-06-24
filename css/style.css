@@ -11,6 +11,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   overflow-x: hidden; /* Hide horizontal scrollbar */
+  max-width: 100%;
 }
 
 a {
@@ -175,7 +176,6 @@ ul {
   flex-direction: column;
   position: fixed;
   z-index: 10;
-  max-width: 1510px;
   width: auto;
 }
 
