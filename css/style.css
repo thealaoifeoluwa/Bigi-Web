@@ -708,9 +708,16 @@ font-family: 'Rubik', Helvetica, sans-serif;
   display: flex;
   width: auto;
   margin: auto;
+  max-width: 1700px;
   padding-top: 200px;
   padding-bottom: 140px;
-  justify-content: center;
+  /* justify-content: center; */
+}
+
+.divider img {
+  max-width: 1600px;
+  width: 90%;
+  margin: auto;
 }
 
 
@@ -833,6 +840,7 @@ footer {
   height: 800px;
   flex-direction: column;
   justify-content: space-between;
+  padding-left: 5%;
 }
 
 .contact h2 {
@@ -1029,7 +1037,6 @@ input:focus {
 
 /* ==============Media Query======= */
 
-
 @media screen and (max-width:1080px) {
 
   /* Hamburger Start */
@@ -1125,9 +1132,15 @@ input:focus {
 
   }
 
+  .divider img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 1600px;
+    width: 93%;
+    margin: auto;
+  }
 
 }
-
 
 @media screen and (max-width: 835px) {
   
@@ -1364,13 +1377,12 @@ input:focus {
 
   /* --------------- Footer------------------*/
 
-  .divider {
-    padding-top: 100px;
-    padding-bottom: 90px;
-    max-width: 30px;
+  .divider img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 1600px;
+    width: 84%;
     margin: auto;
-    display: flex;
-    justify-content: center;
   }
 
 
