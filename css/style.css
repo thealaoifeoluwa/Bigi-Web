@@ -431,7 +431,7 @@ ul {
   margin: auto;
   width: auto;
   padding: 0 180px;
-  padding-top: 12%;
+  padding-top: 7%;
   font-family: 'Rubik', Helvetica, sans-serif;
 }
 
@@ -1197,7 +1197,7 @@ input:focus {
     margin: auto;
     width: auto;
     padding: 0 40px;
-    padding-top: 6%;
+    padding-top: 12%;
     font-family: 'Rubik', Helvetica, sans-serif;
   }
   
