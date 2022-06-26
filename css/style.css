@@ -2604,6 +2604,17 @@ input:focus {
     transition-duration: 500ms;
   }
 
+  /* divider */
+
+  .divider {
+    display: flex;
+    width: auto;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    justify-content: center;
+  }
+
   /* footer */
 
   footer {
@@ -2750,6 +2761,7 @@ input:focus {
 
 
   /* ========Button Selection========== */
+
   .preference {
     display: inline-block;
   }
