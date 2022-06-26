@@ -1176,7 +1176,7 @@ input:focus {
     transition: .3s;
     position: relative;
     left: 6px;
-    top: 2px;
+    top: 1px;
     transform: scale(1.1);
   }
 
