@@ -2620,12 +2620,12 @@ input:focus {
   footer {
     display: flex;
     flex-direction: column-reverse;
-
+    justify-content: space-between;
     max-width: 1600px;
     margin: auto;
     width: auto;
     padding: 0 40px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     font-family: 'Rubik', Helvetica, sans-serif;
     gap: 40vh;
   }
