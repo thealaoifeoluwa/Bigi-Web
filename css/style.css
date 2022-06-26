@@ -2625,7 +2625,7 @@ input:focus {
     margin: auto;
     width: auto;
     padding: 0 40px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     font-family: 'Rubik', Helvetica, sans-serif;
     gap: 40vh;
   }
