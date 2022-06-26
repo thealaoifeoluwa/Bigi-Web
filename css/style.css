@@ -2620,7 +2620,7 @@ input:focus {
   footer {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-between;
+
     max-width: 1600px;
     margin: auto;
     width: auto;
