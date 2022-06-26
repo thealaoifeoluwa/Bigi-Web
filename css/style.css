@@ -2634,7 +2634,6 @@ input:focus {
 
   .side1 {
     display: flex;
-    height: 800px;
     flex-direction: column;
     justify-content: space-between;
     width: auto;
@@ -2734,7 +2733,6 @@ input:focus {
   
   .side2 {
     display: flex;
-    height: 800px;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 40%;
