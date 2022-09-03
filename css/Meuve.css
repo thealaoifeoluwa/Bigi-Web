@@ -1,0 +1,247 @@
+.floating {
+
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: fixed;
+    z-index: 10;
+}
+
+.meuve {
+    display: flex;
+    flex-direction: column;
+    max-width: 1450px;
+    margin: auto;
+    width: auto;
+    padding: 0 30px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-family: 'Rubik', Helvetica, sans-serif;
+}
+
+.snippet {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 82.95px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: 'Rubik', Helvetica, sans-serif;
+}
+
+.meuve h3 {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 38px;
+    padding-bottom: 24px;
+} 
+
+.story{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sub-header{
+    font-weight: 400;
+    font-size: 48px;
+    padding-bottom: 24px;
+} 
+
+.meuve-website {
+    max-width: 420px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    padding-top: 100px;
+    color: #FFC300;
+}
+
+.meuve-website:hover {
+    color: #ffff;
+    text-decoration: underline;
+}
+
+.meuve-others {
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    margin: auto;
+    width: auto;
+    background: #ffff;
+}
+
+
+.meuve-others .logo {
+    display: flex;
+    padding-top: 28px;
+    width: auto;
+}
+
+.gap {
+    padding-top: 28px;
+}
+
+.credit {
+    display: flex;
+    max-width: 1550px;
+    gap: 200px;
+    padding-top: 70px;
+    padding-bottom: 150px;
+    margin: auto;
+    width: auto;
+}
+
+.credit h4 {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 80px;
+}
+
+
+@media screen and (max-width: 790px) {
+
+    .meuve {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: 'Rubik', Helvetic
+    }
+
+    .snippet {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 58px;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        font-family: 'Rubik', Helvetic
+    }
+
+    .meuve h3 {
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 26px;
+        padding-bottom: 24px;
+    } 
+    
+    .story{
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    
+    .sub-header{
+        font-weight: 400;
+        font-size: 36px;
+        padding-bottom: 24px;
+    } 
+    
+    .meuve-website {
+        max-width: 250px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        padding-top: 50px;
+        color: #FFC300;
+    }
+
+
+    .gap {
+        padding-top: 14px;
+    }
+
+
+    .credit {
+        display: flex;
+        max-width: 1550px;
+        gap: 80px;
+        padding-top: 50px;
+        padding-bottom: 70px;
+        margin: auto;
+        width: auto;
+    }
+    
+    
+    .credit h4 {
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 46px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 428px) {
+
+    .meuve {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: 'Rubik', Helvetica, sans-serif;
+    }
+
+    .snippet {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        font-family: 'Rubik', Helvetica, sans-serif;
+    }
+
+    .meuve h3 {
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 24px;
+    } 
+    
+    .story{
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    
+    .sub-header{
+        font-weight: 400;
+        font-size: 28px;
+        padding-bottom: 24px;
+    } 
+    
+    .meuve-website {
+        max-width: 250px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        padding-top: 50px;
+        color: #FFC300;
+    }
+
+
+    .gap {
+        padding-top: 10px;
+    }
+
+
+    .credit {
+        display: flex;
+        max-width: 1550px;
+        gap: 80px;
+        padding-top: 50px;
+        padding-bottom: 70px;
+        margin: auto;
+        width: auto;
+    }
+    
+    
+    .credit h4 {
+        font-style: normal;
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 40px;
+    }
+}
